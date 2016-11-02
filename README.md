@@ -1,4 +1,4 @@
-## Kaggle competition: Painter by Numbers
+## Kaggle competition Painter by Numbers
 <p align="center">
     <img src="/misc/front.jpg?raw=true"/>
 </p>
