@@ -1,0 +1,15 @@
+cycler==0.10.0
+h5py==2.6.0
+-e git+https://github.com/fchollet/keras.git@2c510530b1b7463df20d44b656d1f884eb674ad6#egg=Keras
+matplotlib==1.5.1
+numpy==1.11.1
+Pillow==3.3.0
+protobuf==3.0.0b2
+pyparsing==2.1.5
+python-dateutil==2.5.3
+pytz==2016.6.1
+PyYAML==3.11
+scikit-learn==0.17.1
+scipy==0.18.0
+six==1.10.0
+Theano==0.8.2
