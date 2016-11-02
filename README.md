@@ -99,7 +99,7 @@ Another really valuable insight concerns the extrapolation of the model to artis
 ### 4. Conclusion and further work
 Based on the results of the competition it can be concluded that convolutional neural networks are able to decompose artwork images' visual space based on their painters unique style. The bad news is that the described algorithm is not good at extrapolating to unfamiliar artists. This is largely due to the fact that same identity verification is calculated directly from the two class distribution vectors.
 
-As my first Kaggle competition this was an excellent learning experience and since I'm planning to continue the work as my upcoming master's degree thesis it was also a great opportunity for me to gain more knowledge about possible pitfalls and challenges in the domain. From this point forward my main focus will be on achieving better generalization by training an end-to-end metric learning technique called siamese network, that was only briefly mentioned above.
+As my first Kaggle competition this was an excellent learning experience and since I'm planning to continue the work as my upcoming master's degree thesis it was also a great opportunity for me to gain more knowledge about possible pitfalls and challenges in the domain. From this point forward my main focus will be on achieving better generalization by training an end-to-end metric learning technique called siamese network that was only briefly mentioned above.
 
 ### 5. Resources
 - [Bioinformatics Laboratory, Faculty of Computer and Information Science, University of Ljubljana](http://www.biolab.si/en/)
