@@ -101,12 +101,14 @@ Based on the results of the competition it can be concluded that convolutional n
 
 As my first Kaggle competition this was an excellent learning experience and since I'm planning to continue the work as my upcoming master's degree thesis it was also a great opportunity for me to gain more knowledge about possible pitfalls and challenges in the domain. From this point forward my main focus will be on achieving better generalization by training an end-to-end metric learning technique called siamese network that was only briefly mentioned above.
 
+I would like to thank [Jure Žbontar](https://github.com/jzbontar), [Niko Colnerič](https://github.com/nikicc), [Tomaž Hočevar](https://github.com/thocevar) and other members of the [Bioinformatics Laboratory from University of Ljubljana](http://www.biolab.si/en/) for their help and provision of the infrastructure.
+
 ### 5. Resources
-- [Bioinformatics Laboratory, Faculty of Computer and Information Science, University of Ljubljana](http://www.biolab.si/en/)
+- [Bioinformatics Laboratory, University of Ljubljana](http://www.biolab.si/en/)
 - [Stanford CS231n notes](http://cs231n.github.io)
 - Very Deep Convolutional Networks for Large-Scale Image Recognition: Karen Simonyan, Andrew Zisserman
 - DeepFace: Closing the Gap to Human-Level Performance in Face Verification: Yaniv Taigman, Ming Yang, Marc'Aurelio Ranzato, Lior Wolf
 - Dimensionality Reduction by Learning an Invariant Mapping: Raia Hadsell, Sumit Chopra, Yann LeCun
 - Learning a similarity metric discriminatively, with application to face verification: Sumit Chopra, Raia Hadsell, Yann LeCun
 - [Keras: Deep Learning library](https://github.com/fchollet/keras)
-- Competition and its datasets were prepared by [Kiri Nichol](https://www.kaggle.com/smallyellowduck)
+- [Competition](https://www.kaggle.com/c/painter-by-numbers) and its datasets that were prepared by [Kiri Nichol](https://www.kaggle.com/smallyellowduck)
