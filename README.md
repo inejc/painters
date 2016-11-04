@@ -74,7 +74,9 @@ Depiction below illustrates the architecture of the final convolutional neural n
                   #####     (1584,)
       Softmax     #####     (1584,)
 ```
-
+<p align="center">
+    <b align="center">Final ConvNet architecture</b>
+</p>
 
 300 epochs are needed for model to converge to the local minima using the Adam optimizer with 0.000074 learning rate and batch size of 96 examples. During training the cross-entropy loss was minimized.
 
@@ -91,7 +93,7 @@ The public leaderboard score was calculated on 70% of the submission pairs and t
 The administrator of the competition [Kiri Nichol](https://www.kaggle.com/smallyellowduck) has posted some very useful insights into the performance of the algorithm on the private, test dataset. As stated on the competition [forum](https://www.kaggle.com/c/painter-by-numbers/forums/t/24970/wrapping-up), an ingenious Dutch forger Han van Meegeren was slipped into the test set in order to better understand how good the model is at extracting painters' unique styles. The forger has replicated some of the world's most famous artists' work, including the paintings of Johannes Vermeer. Below is a pairwise comparison table of my best submission's predictions for van Meegeren and Vermeer examples from the test set. Based on the model's predictions it can be seen that Vermeer's paintings are indeed more similar to each other than van Meegeren's paintings are to Vermeer's paintings. It can also be seen that Vermeer's paintings are more similar to each other than van Meegeren's paintings are to each other, due to van Meegeren forging paintings in the style of several different artists.
 <p align="center">
     <img src="/misc/vermeer_vs_van_meegeren.png?raw=true"/>
-    <b align="center">Pairwise comparison table for van Meegeren and Vermeer paintings in the test set</b>
+    <b align="center">Pairwise comparison table for van Meegeren and Vermeer paintings from the test set</b>
 </p>
 
 Another really valuable insight concerns the extrapolation of the model to artists that were not seen during training. The results are given in the form of AUC of my final submission for two different groups of instances from the test set. The first group consists of pairs of images whose painters were present in the training set: `0.94218 AUC` and the second one is composed of pairs whose artists haven't been seen by the model before: `0.82509 AUC`. The results indicate that the model is not so good at generalizing to unknown classes.
