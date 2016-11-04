@@ -101,7 +101,7 @@ Based on the results of the competition it can be concluded that convolutional n
 
 As my first Kaggle competition this was an excellent learning experience and since I'm planning to continue the work as my upcoming master's degree thesis it was also a great opportunity for me to gain more knowledge about possible pitfalls and challenges in the domain. From this point forward my main focus will be on achieving better generalization by training an end-to-end metric learning technique called siamese network that was only briefly mentioned above.
 
-I would like to thank [Jure Žbontar](https://github.com/jzbontar), [Niko Colnerič](https://github.com/nikicc), [Tomaž Hočevar](https://github.com/thocevar) and other members of the [Bioinformatics Laboratory from University of Ljubljana](http://www.biolab.si/en/) for their help and provision of the infrastructure.
+I would like to thank [Niko Colnerič](https://github.com/nikicc), [Tomaž Hočevar](https://github.com/thocevar), [Blaž Zupan](https://github.com/BlazZupan), [Jure Žbontar](https://github.com/jzbontar) and other members of the [Bioinformatics Laboratory from University of Ljubljana](http://www.biolab.si/en/) for their help and provision of the infrastructure.
 
 ### 5. Resources
 - [Bioinformatics Laboratory, University of Ljubljana](http://www.biolab.si/en/)
