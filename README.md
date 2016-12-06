@@ -1,9 +1,9 @@
-## Kaggle competition Painter by Numbers
+## Painter by Numbers competition on Kaggle
 <p align="center">
     <img src="/misc/front.jpg?raw=true"/>
 </p>
 
-This repository contains a 1st place solution for the Kaggle [competition Painter by Numbers](https://www.kaggle.com/c/painter-by-numbers). Below is a brief description of the dataset and approaches I've used to build and validate a predictive model.
+This repository contains a 1st place solution for the [Painter by Numbers competition on Kaggle](https://www.kaggle.com/c/painter-by-numbers). Below is a brief description of the dataset and approaches I've used to build and validate a predictive model.
 
 The challenge of the competition was to examine pairs of paintings and determine whether they were painted by the same artist. The training set consists of artwork images and their corresponding class labels (painters). Examples in the test set were split into 13 groups and all possible pairs within each group needed to be examined for the submission. The evaluation metric for the leaderboard was AUC (area under the curve).
 
