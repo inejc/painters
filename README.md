@@ -7,6 +7,8 @@ This repository contains a 1st place solution for the [Painter by Numbers compet
 
 The challenge of the competition was to examine pairs of paintings and determine whether they were painted by the same artist. The training set consists of artwork images and their corresponding class labels (painters). Examples in the test set were split into 13 groups and all possible pairs within each group needed to be examined for the submission. The evaluation metric for the leaderboard was AUC (area under the curve).
 
+Weights of the best-performing model along with preprocessing statistics are available [here](http://bit.ly/painters-pretrained).
+
 ### 1. Dataset and preprocessing
 The training set is unbalanced and some classes are only present in the training set and some only in the test set. Additionally input images are of various dimensions. There are 79433 instances and 1584 unique painters in the training set and the test set is composed of 23817 instances.  Predictions for approximately 22M pairs needed to be made for the submission.
 
